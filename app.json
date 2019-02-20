@@ -6,7 +6,7 @@
     "elasticsearch", "elastic", "bonsai"
   ],
   "website": "https://bonsai.io/",
-  "repository": "https://github.com/omc/heroku-kibana.git",
+  "repository": "https://github.com/ramongtx/heroku-kibana.git",
   "logo": "https://cdn.rawgit.com/omc/heroku-kibana/master/kibana.svg",
   "success_url": "/",
   "env": {
@@ -16,7 +16,6 @@
       "required": false
     }
   },
-  "addons": [ "bonsai:staging" ],
   "buildpacks": [
     {
       "url": "https://github.com/omc/heroku-buildpack-kibana.git"
